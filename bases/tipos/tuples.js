@@ -10,3 +10,4 @@
     hero2[2] = false;
     console.log(hero2);
 })();
+//# sourceMappingURL=tuples.js.map

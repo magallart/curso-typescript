@@ -32,3 +32,4 @@
     let noHaceNadaTampoco;
     noHaceNadaTampoco = noHaceNada;
 };
+//# sourceMappingURL=app2.js.map

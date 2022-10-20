@@ -11,3 +11,4 @@
         powers: ['Súper velocidad'],
     };
 })();
+//# sourceMappingURL=objects.js.map

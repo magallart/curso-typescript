@@ -5,3 +5,4 @@
     console.log({ isSuperman });
     console.log({ isBatman });
 })();
+//# sourceMappingURL=boolean.js.map

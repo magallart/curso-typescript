@@ -8,3 +8,4 @@
     };
     error('Auxilioooooo');
 })();
+//# sourceMappingURL=never.js.map

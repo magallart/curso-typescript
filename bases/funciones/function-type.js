@@ -13,3 +13,4 @@
     // myFunction = saveTheWorld;                       // Da error al no cumplir el tipado
     // console.log(myFunction());
 })();
+//# sourceMappingURL=function-type.js.map

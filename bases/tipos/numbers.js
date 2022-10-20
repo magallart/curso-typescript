@@ -12,3 +12,4 @@
     avengers = 123;
     console.log({ avengers });
 })();
+//# sourceMappingURL=numbers.js.map
