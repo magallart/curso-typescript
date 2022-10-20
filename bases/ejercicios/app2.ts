@@ -1,4 +1,4 @@
-() => {
+(() => {
   // Funciones básicas
 
   function sumados(a: number, b: number) {
@@ -55,4 +55,4 @@
   ) => void;
 
   noHaceNadaTampoco = noHaceNada;
-};
+})();
