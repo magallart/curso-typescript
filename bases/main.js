@@ -1,15 +1,22 @@
 "use strict";
 (() => {
-    ;
-    let flash = {
-        name: 'Barry Allen',
-        age: 24,
-        powers: ['Súper velocidad', 'Viajar en el tiempo'],
+    const client = {
+        name: 'Miguel Ángel',
+        age: 25,
+        adress: {
+            id: 125,
+            zip: 'VAL SUD',
+            city: 'New York',
+        }
     };
-    let superman = {
-        name: 'Clark Kent',
-        age: 60,
-        powers: ['Súper velocidad'],
+    const client2 = {
+        name: 'Sara',
+        age: 20,
+        adress: {
+            id: 52,
+            zip: 'VAL NOR',
+            city: 'Toronto',
+        }
     };
 })();
 //# sourceMappingURL=main.js.map
