@@ -22,6 +22,12 @@ var __rest = (this && this.__rest) || function (s, e) {
         var { vision } = _a, resto = __rest(_a, ["vision"]);
         console.log(vision, resto);
     };
-    printAvenger(avengers);
+    const avengersArr = [
+        'Capitán América',
+        true,
+        150.15,
+    ];
+    const [capitan, ironman, seriaUnNumero] = avengersArr;
+    console.log({ ironman });
 })();
 //# sourceMappingURL=main.js.map
