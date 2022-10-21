@@ -101,5 +101,5 @@
     "skipLibCheck": true /* Skip type checking all .d.ts files. */
   },
   "exclude": [],
-  "include": ["ES6"]
+  "include": ["ES6/for-of.ts"]
 }

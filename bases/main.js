@@ -1,33 +1,20 @@
 "use strict";
-var __rest = (this && this.__rest) || function (s, e) {
-    var t = {};
-    for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p) && e.indexOf(p) < 0)
-        t[p] = s[p];
-    if (s != null && typeof Object.getOwnPropertySymbols === "function")
-        for (var i = 0, p = Object.getOwnPropertySymbols(s); i < p.length; i++) {
-            if (e.indexOf(p[i]) < 0 && Object.prototype.propertyIsEnumerable.call(s, p[i]))
-                t[p[i]] = s[p[i]];
-        }
-    return t;
-};
 (() => {
-    const avengers = {
-        nick: 'Samuel L. Jackson',
-        ironman: 'Robert Downey Jr.',
-        vision: 'Paul Bettany',
-        activos: true,
-        poder: 1500.4151,
+    const ironman = {
+        name: 'Ironman',
+        weapon: 'Armorsuit',
     };
-    const printAvenger = (_a) => {
-        var { vision } = _a, resto = __rest(_a, ["vision"]);
-        console.log(vision, resto);
+    const capitanAmerica = {
+        name: 'Capitán América',
+        weapon: 'Escudo',
     };
-    const avengersArr = [
-        'Capitán América',
-        true,
-        150.15,
-    ];
-    const [capitan, ironman, seriaUnNumero] = avengersArr;
-    console.log({ ironman });
+    const thor = {
+        name: 'Thor',
+        weapon: 'Mjolnir',
+    };
+    const avengers = [ironman, thor, capitanAmerica];
+    for (const avenger of avengers) {
+        console.log(avenger);
+    }
 })();
 //# sourceMappingURL=main.js.map
