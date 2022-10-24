@@ -101,5 +101,5 @@
     "skipLibCheck": true /* Skip type checking all .d.ts files. */
   },
   "exclude": [],
-  "include": ["namespaces/validations.ts"]
+  "include": ["namespaces/validations.ts"] // TODO: Cambiar el fichero que se quiere compilar
 }
