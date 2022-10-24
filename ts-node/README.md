@@ -25,4 +25,25 @@ Por defecto, el puerto que configuré para este proyecto es el ```8081```, pero 
 Simplemente cambian el puerto por el que ustedes necesiten y listo. (lógicamente graban los cambios antes de ejecutar el ```npm start``` nuevamente)
 
 
-# curso-typescript
+# Instalar node-polyfill-webpack-plugin
+
+Al ejecutar la petición HTTP con axios da un problema al faltarle un módulo. Hay que instalar el siguiente package:
+
+https://github.com/Richienb/node-polyfill-webpack-plugin
+
+```
+npm install node-polyfill-webpack-plugin
+```
+
+Añadir lo siguiente en el fichero ```webpack.config.js```: 
+
+```
+const NodePolyfillPlugin = require('node-polyfill-webpack-plugin');
+
+module.exports = {
+	// Other rules...
+	plugins: [
+		new NodePolyfillPlugin()
+	]
+};
+```
