@@ -101,5 +101,5 @@
     "skipLibCheck": true /* Skip type checking all .d.ts files. */
   },
   "exclude": [],
-  "include": ["interfaces/complejas.ts"]
+  "include": ["interfaces/clases.ts"]
 }

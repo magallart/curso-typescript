@@ -1,22 +1,14 @@
 "use strict";
 (() => {
-    const client = {
-        name: 'Miguel Ángel',
-        age: 25,
-        adress: {
-            id: 125,
-            zip: 'VAL SUD',
-            city: 'New York',
+    class Mutant {
+        constructor(age, name, realName) {
+            this.age = age;
+            this.name = name;
+            this.realName = realName;
         }
-    };
-    const client2 = {
-        name: 'Sara',
-        age: 20,
-        adress: {
-            id: 52,
-            zip: 'VAL NOR',
-            city: 'Toronto',
+        mutantPower(id) {
+            return `${id}: ${this.realName}`;
         }
-    };
+    }
 })();
 //# sourceMappingURL=main.js.map
