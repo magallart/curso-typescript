@@ -1,16 +1,16 @@
 interface Power {
   id: number;
-  description: string;
+  desc: string;
 }
 
 const powers: Power[] = [
   {
     id: 1,
-    description: 'Money',
+    desc: 'Money',
   },
   {
     id: 2,
-    description: 'Drugs',
+    desc: 'Drugs',
   },
 ];
 
