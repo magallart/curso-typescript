@@ -101,5 +101,5 @@
     "skipLibCheck": true /* Skip type checking all .d.ts files. */
   },
   "exclude": [],
-  "include": ["interfaces/funciones.ts"]
+  "include": ["namespaces/validations.ts"]
 }

@@ -1,7 +1,12 @@
 "use strict";
-(() => {
-    let addNumbersFunction = (a, b) => {
-        return a + b;
+var Validations;
+(function (Validations) {
+    Validations.validateText = (text) => {
+        return text.length > 3 ? true : false;
     };
-})();
+    Validations.validateDate = (myDate) => {
+        return isNaN(myDate.valueOf()) ? false : true;
+    };
+})(Validations || (Validations = {}));
+console.log(Validations.validateText('Miguel'));
 //# sourceMappingURL=main.js.map
