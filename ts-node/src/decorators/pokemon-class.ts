@@ -3,15 +3,20 @@ function printToConsole(constructor: Function) {
 }
 
 const printToConsoleConditional = (print: boolean = false): Function => {
-  if(print) {
+  if (print) {
     return printToConsole;
-  }
-  else {
-    return () => {}
+  } else {
+    return () => {};
   }
 };
 
-@printToConsoleConditional(false)
+const bloquearPrototipo = function (constructor: Function) {
+  Object.seal(constructor);
+  Object.seal(constructor.prototype);
+};
+
+@bloquearPrototipo
+@printToConsoleConditional(true)
 export class Pokemon {
   public publicApi: string = 'https://pokeapi.co/';
   constructor(public name: string) {}
